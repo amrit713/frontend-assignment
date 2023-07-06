@@ -64,13 +64,13 @@ function Product({ title, image, price, category, description, id }: any) {
         {title}
       </h4>
 
-      <div className="flex">
+      {/* <div className="flex">
         {Array(rating)
           .fill()
           .map((_, i) => {
             return <StarIcon key={i} className="h-5 text-yellow-500" />;
           })}
-      </div>
+      </div> */}
 
       <p
         className="text-xs my-2 line-clamp-2 text-gray-600"

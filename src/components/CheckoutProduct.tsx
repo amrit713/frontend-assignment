@@ -47,11 +47,11 @@ function CheckoutProduct({
 
            <div className ="col-span-3 mx-5">
                <p>{title}</p>
-               <div className="flex">
+               {/* <div className="flex">
                    {Array(rating).fill().map((_, i)=>(
                        <StarIcon key={i} className="text-yellow-500 h-5" />
                    ))}
-               </div>
+               </div> */}
                <p className="text-xs my-2 line-clamp-3 text-gray-600">{description}</p>
 
               <p>{`Rs. ${new Intl.NumberFormat("en-NP").format(price)}`}</p> 

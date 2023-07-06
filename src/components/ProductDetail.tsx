@@ -48,11 +48,11 @@ const {title, image, price, category, description, id} = product
         <div className="flex items-center  ">
           <p className="text-lg font-semibold mr-4">Ratting:</p>
           {/* ratting */}
-          {Array(rating)
+          {/* {Array(rating)
           .fill()
           .map((_, i) => {
             return <StarIcon key={i} className="h-5 text-yellow-500" />;
-          })}
+          })} */}
           
         </div>
         <p className="leading-relaxed">{product.description}</p>

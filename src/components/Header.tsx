@@ -67,7 +67,7 @@ const Header: FC<HeaderProps> = ({}) => {
 
           <div className="hidden sm:flex flex-col link">
             <p> Returns</p>
-            <p className="font-extrabold md:text-sm">& Orders</p>
+            <p className="font-extrabold md:text-sm"> & Orders</p>
           </div>
 
           <div
@@ -92,7 +92,7 @@ const Header: FC<HeaderProps> = ({}) => {
 
         <p className="link">Prime Video</p>
         <p className="link">Amazon Business</p>
-        <p className="link">Today's Deals</p>
+        <p className="link">Today Deals</p>
         <p className="hidden lg:inline-flex link ">Electronics</p>
         <p className="hidden lg:inline-flex link ">Food & Grocery</p>
         <p className="hidden lg:inline-flex link ">Prime</p>

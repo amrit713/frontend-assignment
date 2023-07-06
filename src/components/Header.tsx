@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 import { FC, useState } from "react";
 
 import {
@@ -21,7 +23,7 @@ const Header: FC<HeaderProps> = ({}) => {
   const [search, setSearch] =useState("");
 
 
-  console.log(search)
+
 
   const searchHandler =(e:any) =>{
     router.push(`/search/${search}`)

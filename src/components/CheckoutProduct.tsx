@@ -14,7 +14,7 @@ function CheckoutProduct({
      category,
      description,
      rating,
-     hasPrime}) {
+     hasPrime}:any) {
 
         const product ={
             id,
